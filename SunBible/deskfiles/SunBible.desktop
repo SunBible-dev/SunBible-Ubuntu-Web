@@ -1,0 +1,11 @@
+# Sample Desktop Application Entry
+[Desktop Entry]
+Name=SunBible
+GenericName=Bible app by The SunShining
+Comment=A beautiful way to read, study, and memorize the Bible.
+Type=Application
+Exec=sh -c "snow 'https://the-sunshining.github.io/SunBible/' SunBible || x-www-browser 'https://the-sunshining.github.io/SunBible/'"
+Icon=../icon.png
+Terminal=false
+Categories=Bible;Books;Education;
+Keywords=Bible;Christian;God;Jesus;
