@@ -16,7 +16,7 @@ wget -O "SunBible.wapp" 'https://github.com/SunBible-dev/SunBible-Ubuntu-Web/rel
 echo ""
 echo "Installing..."
 # Install the wapp using wappinst (part of winst) and pass-run (authentication dialog of Ubuntu Web, preinstalled)
-pass-run wappinst download.wapp
+pass-run wappinst SunBible.wapp
 
 # Remove download.wapp
 rm -f SunBible.wapp
