@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "This is an example."
+rm -rf /etc/web-apps/SunBible/ /usr/share/applications/SunBible.desktop
